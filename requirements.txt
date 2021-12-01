@@ -1,0 +1,7 @@
+# Bbox Cutmix
+# Written by seareale
+# https://github.com/seareale
+
+pip install torch
+pip install opencv-python
+pip install albumentations
