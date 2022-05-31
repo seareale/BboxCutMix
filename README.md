@@ -70,5 +70,5 @@ from torch.utils.data import Dataset
 2. Golnaz et al, Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation, https://arxiv.org/abs/2012.07177
 
 <br/><div align="center">
-by [Seareale](https://github.com/seareale) | [KVL Lab](http://vl.knu.ac.kr) | [KNU](http://knu.ac.kr)
+by [seareale](https://github.com/seareale) | [KVL Lab](http://vl.knu.ac.kr) | [KNU](http://knu.ac.kr)
 </div>
