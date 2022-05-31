@@ -31,7 +31,7 @@ There is already a method using bounding boxes like copy-paste[[2]](https://arxi
 The detailed procedure of BboxCutMix is shown in the image below. The offset margin was added to prevent easy finding out a bounding box. And we applied data augmentations for each cropped objects. Finally, cropped objects are inserted into the training image.
 
 <div align="center">
-<img src="https://wiki.seareale.dev/uploads/images/gallery/2022-05/1f7zm64IOCh9F3jB-image-1654016473559.png" hspace=20/>
+<img src="https://wiki.seareale.dev/uploads/images/gallery/2022-05/zHeDBz8rS9T4K1bf-image-1654017772795.png" hspace=20/>
     <p>The procedure of BboxCutMix</p>
 </div>
 
