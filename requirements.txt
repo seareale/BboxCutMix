@@ -1,4 +1,4 @@
-# Bbox Cutmix
+# BboxCutMix(Bounding Box CutMix)
 # Written by seareale
 # https://github.com/seareale
 
