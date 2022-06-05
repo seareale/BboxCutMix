@@ -51,14 +51,16 @@ from torch.utils.data import Dataset
 
     class customDataset(Dataset):
         ...
-        self.img_files = ...   # path of traning images (list)
-        self.img_size = ...   # traning images size (int) 
-        self.n = ...             # number of traning images (int) 
-        self.lables = ...       # labels of traning data (numpy.ndarray)
+        self.ims = ...        # training images (list | (#_img, H, W, C))
+        self.im_files = ...   # path of traning images (list)
+        self.img_size = ...   # traning images size (int)
+        self.indices = ...    # range(0, #_img)
+        self.labels = ...     # labels of traning data (list | (#_img, #_obj, class, x, y, w, h))
         …
         # load image
         if bbox_cutmix:
-            img, labels = bbox_cutmix(self, img, labels, h, w, index)
+            # h, w are height and width of img
+            img, labels = bbox_cutmix(self, img, labels, h, w)
         …
 ```
 
