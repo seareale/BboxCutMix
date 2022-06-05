@@ -2,6 +2,7 @@
 # Written by seareale
 # https://github.com/seareale
 
-pip install torch
-pip install opencv-python
-pip install albumentations
+torch>=1.7.0
+torchvision>=0.8.1
+opencv-python>=4.1.1
+albumentations>=1.0.3
