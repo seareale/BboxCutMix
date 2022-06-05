@@ -46,7 +46,7 @@ $ pip install -r requirements
 
 2. initialize variables and add the code in your **Dataset** class like below.
 ```python
-from bbox_cutmix import bbox_cutmix 
+from bbox_cutmix import * 
 from torch.utils.data import Dataset 
 
     class customDataset(Dataset):
