@@ -41,7 +41,7 @@ The detailed procedure of BboxCutMix is shown in the image below. The offset mar
 ## <div align="center">How to use</div>
 1. run the command
 ```bash
-$ pip install -r requirements
+$ pip install -r requirements.txt
 ```
 
 2. initialize variables and add the code in your **Dataset** class like below.
